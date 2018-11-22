@@ -6,4 +6,25 @@ body {
   border: blue solid 2px;
   min-width: 40vw;
   min-height: 10vh;
+  margin-bottom: 3vh;
+  text-align: center;
+  background-color: lightblue;
+  border-radius: 20px;
+}
+
+#reading-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+
+}
+
+#form-wrapper{
+  display:flex;
+  flex-direction: column;
+}
+
+.form-item, button, input[type=submit]{
+  margin: 10px auto;
 }
