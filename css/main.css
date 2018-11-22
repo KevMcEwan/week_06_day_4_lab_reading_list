@@ -1,0 +1,9 @@
+body {
+  font-family: Palatino;
+}
+
+.reading-article{
+  border: blue solid 2px;
+  min-width: 40vw;
+  min-height: 10vh;
+}
